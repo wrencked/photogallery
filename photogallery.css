@@ -72,10 +72,9 @@ img {
     width: 420px;
 }
 
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
+div .container {
+    float: left;
+    margin: 5px;
 }
 
 .smallImage {
