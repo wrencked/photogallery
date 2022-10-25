@@ -72,6 +72,7 @@ nav a {
 div .container {
     float: left;
     margin: 5px;
+    width: 420px;
 }
 
 img {
