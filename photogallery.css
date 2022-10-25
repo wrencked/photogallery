@@ -12,15 +12,22 @@ body {
 h1 {
     font-size: 40px;
     color: #007D7B;
+    text-transform: uppercase;
 }
 
 h2{
     font-size: 40px;
     color: #FFFFFF;
+    text-transform: uppercase;
 }
 
 p, li {
     font-size: 20px;
+}
+
+nav {
+    float: right;
+    position: relative;
 }
 
 nav h2 {
@@ -30,6 +37,11 @@ nav h2 {
 
 nav li {
     display: inline;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 [href="#top"] {
@@ -57,12 +69,7 @@ nav li {
 
 img {
     width: 420px;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5px 5px 5px
+    position: absolute;
 }
 
 .smallImage {
