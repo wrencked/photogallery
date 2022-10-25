@@ -59,6 +59,12 @@ img {
     width: 420px;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 5px 5px
+}
+
 .smallImage {
     height: 281px;
 }
