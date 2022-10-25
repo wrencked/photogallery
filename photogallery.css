@@ -47,6 +47,10 @@ img {
     height: 630px;
 }
 
+.container {
+    position: relative;
+}
+
 .topLeft {
     position: absolute;
     top: 8px;
