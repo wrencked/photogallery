@@ -33,6 +33,7 @@ nav {
 nav h2 {
     visibility: hidden;
     height: 1px;
+    clear: both;
 }
 
 nav li {
@@ -68,13 +69,14 @@ nav a {
     clear: both;
 }
 
-img {
-    width: 420px;
-}
-
 div .container {
     float: left;
     margin: 5px;
+}
+
+img {
+    width: 420px;
+    clear: both;
 }
 
 .smallImage {
