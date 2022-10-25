@@ -6,6 +6,7 @@ body {
     width: 1310px;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF; 
 }
 
 h1 {
@@ -22,8 +23,27 @@ p, li {
     font-size: 20px;
 }
 
+nav h2 {
+    visibility: hidden;
+    height: 1px;
+}
+
+nav li {
+    display: inline;
+}
+
+[href="#top"] {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+}
+
 .box {
     background: #FFFFFF;
+    color: #000000;
+}
+
+.box h2 {
     color: #000000;
 }
 
@@ -47,8 +67,12 @@ img {
     height: 630px;
 }
 
-.container {
-    position: relative;
+.blackText {
+    color: #000000
+}
+
+.whiteText {
+    color: #FFFFFF
 }
 
 .topLeft {
@@ -75,4 +99,5 @@ img {
 [placeholder] {
     font-size: 16px;
     color: #007D7B;
+    text-transform: uppercase;
 }
