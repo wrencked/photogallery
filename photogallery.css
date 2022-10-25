@@ -70,11 +70,12 @@ nav a {
 
 img {
     width: 420px;
-    position: absolute;
 }
 
 .container {
     position: absolute;
+    text-align: center;
+    color: white;
 }
 
 .smallImage {
@@ -86,31 +87,33 @@ img {
 }
 
 .blackText {
-    color: #000000
+    text-transform: uppercase;
+    color: #000000;
 }
 
 .whiteText {
-    color: #FFFFFF
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .topLeft {
     position: absolute;
-    top: 8px;
-    left: 16px;
+    top: 3px;
+    left: 6px;
     font-size: 16px;
 }
 
 .bottomRight {
     position: absolute;
-    bottom: 8px;
-    right: 16px;
+    bottom: 3px;
+    right: 6px;
     font-size: 16px;
 }
 
 .bottomLeft {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    bottom: 3px;
+    left: 6px;
     font-size: 16px;
 }
 
