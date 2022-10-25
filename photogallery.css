@@ -73,7 +73,7 @@ img {
 }
 
 .container {
-    position: absolute;
+    position: relative;
     text-align: center;
     color: white;
 }
