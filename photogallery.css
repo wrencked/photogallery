@@ -53,13 +53,14 @@ nav a {
 .box {
     background: #FFFFFF;
     color: #000000;
+    padding: 0px 5px 0px;
 }
 
 .box h2 {
     color: #000000;
 }
 
-#about {
+#about p {
     float: right;
 }
 
