@@ -45,7 +45,6 @@ nav {
 nav li {
     justify-content: space-between;
     display: inline-block;
-    clear: both;
 }
 
 nav a {
@@ -90,6 +89,7 @@ img[src*="TK"] {
     width: 850px;
     float: left;
     position: relative;
+    top: 5px;
 }
 
 #about {
@@ -100,7 +100,7 @@ img[src*="TK"] {
     right: 5px;
 }
 
-#about p {
+#about p, #about h2 {
     margin: 5px;
 }
 
