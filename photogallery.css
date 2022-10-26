@@ -61,7 +61,7 @@ nav a:hover {
     color: #007D7B
 }
 
-nav li:last child, [href="#top"] {
+[href="#top"] {
     position:fixed;
     bottom:0px;
     right:0px;
