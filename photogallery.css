@@ -2,6 +2,12 @@ html {
     background: #000000;
 }
 
+header {
+  background: #000000;
+  position: absolute;
+  width: 1310px;
+}
+
 body {
     width: 1310px;
     margin: 0 auto;
@@ -13,6 +19,9 @@ h1 {
     font-size: 40px;
     color: #007D7B;
     text-transform: uppercase;
+    float: left;
+    position: relative;
+  width: 400px;
 }
 
 h2{
@@ -27,7 +36,7 @@ p, li {
 
 nav {
     float: right;
-    position: relative;
+  padding: 5px
 }
 
 nav h2 {
@@ -37,12 +46,13 @@ nav h2 {
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
 }
 
 nav a {
     color: #FFFFFF;
     text-decoration: none;
+    padding: 20px
 }
 
 [href="#top"] {
@@ -61,8 +71,27 @@ nav a {
     color: #000000;
 }
 
-#about p {
+img[src*="TK"] {
+    width: 850px;
+    float: left;
+    position: relative;
+    margin: 200px 0px 0px;
+}
+
+#about {
+    width: 420px;
     float: right;
+    position: relative;
+    text-align: right;
+    margin: 100px 10px 0px;
+}
+
+#about h2 {
+    margin: 20px 0px 0px
+}
+
+#about p {
+    margin: 5px;
 }
 
 #gallery {
