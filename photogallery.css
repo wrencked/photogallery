@@ -5,6 +5,7 @@ html {
 header {
   background: #000000;
   width: 1310px;
+  height: 90px;
 }
 
 body {
@@ -33,17 +34,13 @@ p, li {
     font-size: 20px;
 }
 
-#navigation {
-    float: right;
-    justify-content: space-evenly;
-    position: absolute;
-}
-
 nav {
-    clear: both;
+    position: absolute;
+    float: right;
 }
 
 nav li {
+    justify-content: space-between;
     display: inline-block;
     clear: both;
 }
@@ -59,8 +56,19 @@ nav a {
     bottom:0px;
     right:0px;
     width: 80px;
+    height: 40px;
     background: #007D7B;
     z-index: 1;
+
+}
+
+[href="#top"]:hover {
+    color: #007D7B;
+    background: #FFFFFF;
+}
+
+main {
+    clear: both;
 }
 
 .box {
@@ -86,7 +94,7 @@ img[src*="TK"] {
     float: right;
     position: relative;
     text-align: right;
-    top: 120px;
+    top: 100px;
     right: 5px;
 }
 
@@ -98,8 +106,8 @@ img[src*="TK"] {
     clear: both;
     margin-left: auto;
     margin-right: auto;
-    top: 45px;
-
+    position: relative;
+    top: 240px;
 }
 
 div .container {
@@ -179,8 +187,24 @@ img {
     text-transform: uppercase;
 }
 
+#contact input {
+    width: 850px;
+    height: 30px;
+}
+
 [placeholder] {
     color: #007D7B;
+}
+
+button {
+    background: #007D7B;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {
