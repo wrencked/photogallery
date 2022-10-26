@@ -75,7 +75,7 @@ img[src*="TK"] {
     width: 850px;
     float: left;
     position: relative;
-    margin: 200px 0px 0px;
+    margin: 0px;
 }
 
 #about {
@@ -96,12 +96,15 @@ img[src*="TK"] {
 
 #gallery {
     clear: both;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div .container {
     float: left;
     margin: 5px;
     width: 420px;
+    position: relative;
 }
 
 img {
@@ -146,6 +149,16 @@ img {
     bottom: 3px;
     left: 6px;
     font-size: 16px;
+}
+
+#contact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact form {
+    text-align: left;
 }
 
 [placeholder] {
