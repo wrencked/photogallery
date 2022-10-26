@@ -45,8 +45,7 @@ nav {
 
 nav li {
     display: inline-block;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: 40px 20px 20px 40px;
 }
 
 nav a {
@@ -68,7 +67,7 @@ nav a:hover {
     background: #007D7B;
     z-index: 1;
     text-align: center;
-    line-height: 50%;
+    line-height: 75%;
 }
 
 [href="#top"]:hover {
