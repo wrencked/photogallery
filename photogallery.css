@@ -5,7 +5,6 @@ html {
 header {
   background: #000000;
   width: 1310px;
-  height: 90px;
 }
 
 body {
@@ -21,6 +20,7 @@ h1 {
     text-transform: uppercase;
     float: left;
     width: 400px;
+    position: absolute;
 }
 
 h2{
@@ -35,10 +35,8 @@ p, li {
 
 #navigation {
     float: right;
-    width: 600px;
-    height: 45px;
     justify-content: space-evenly;
-    position: relative;
+    position: absolute;
 }
 
 nav {
@@ -47,6 +45,7 @@ nav {
 
 nav li {
     display: inline-block;
+    clear: both;
 }
 
 nav a {
