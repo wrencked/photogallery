@@ -35,8 +35,11 @@ p, li {
 }
 
 nav {
-    position: absolute;
     float: right;
+}
+
+#navigation {
+    clear: both;
 }
 
 nav li {
@@ -60,6 +63,7 @@ nav a {
     background: #007D7B;
     z-index: 1;
     text-align: center;
+    line-height: 3px;
 }
 
 [href="#top"]:hover {
@@ -108,6 +112,7 @@ img[src*="TK"] {
 }
 
 div .container {
+    float: left;
     width: 420px;
     position: relative;
     display: block;
