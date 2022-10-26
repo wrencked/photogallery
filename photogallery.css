@@ -59,7 +59,7 @@ nav a {
     height: 40px;
     background: #007D7B;
     z-index: 1;
-
+    text-align: center;
 }
 
 [href="#top"]:hover {
@@ -86,7 +86,6 @@ img[src*="TK"] {
     width: 850px;
     float: left;
     position: relative;
-    top: 120px;
 }
 
 #about {
@@ -94,7 +93,6 @@ img[src*="TK"] {
     float: right;
     position: relative;
     text-align: right;
-    top: 100px;
     right: 5px;
 }
 
@@ -107,15 +105,13 @@ img[src*="TK"] {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: 240px;
 }
 
 div .container {
-    float: left;
-    margin: 5px;
     width: 420px;
     position: relative;
     display: block;
+    margin: 5px;
     overflow: auto;
 }
 
@@ -203,6 +199,8 @@ button {
     color: #FFFFFF;
     text-transform: uppercase;
     width: 420px;
+    height: 40px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
