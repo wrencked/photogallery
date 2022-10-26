@@ -4,9 +4,8 @@ html {
 
 header {
   background: #000000;
-  position: absolute;
   width: 1310px;
-  height: 45px;
+  height: 90px;
 }
 
 body {
@@ -21,7 +20,6 @@ h1 {
     color: #007D7B;
     text-transform: uppercase;
     float: left;
-    position: relative;
     width: 400px;
 }
 
@@ -43,9 +41,7 @@ p, li {
     position: relative;
 }
 
-nav h2 {
-    visibility: hidden;
-    height: 1px;
+nav {
     clear: both;
 }
 
@@ -92,6 +88,7 @@ img[src*="TK"] {
     position: relative;
     text-align: right;
     top: 120px;
+    right: 5px;
 }
 
 #about p {
@@ -102,6 +99,7 @@ img[src*="TK"] {
     clear: both;
     margin-left: auto;
     margin-right: auto;
+    top: 45px;
 
 }
 
