@@ -34,11 +34,12 @@ p, li {
     font-size: 20px;
 }
 
-nav {
+nav ul {
     float: right;
     width: 600px;
     height: 45px;
     text-align: justify;
+    position: relative;
 }
 
 nav h2 {
@@ -69,6 +70,7 @@ nav a {
     background: #FFFFFF;
     color: #000000;
     padding: 0px 5px 0px;
+    height: auto;
 }
 
 .box h2 {
@@ -113,9 +115,12 @@ div .container {
     overflow: auto;
 }
 
+.clear { 
+    clear: both; 
+}
+
 img {
     width: 420px;
-    clear: both;
 }
 
 .smallImage {
@@ -161,15 +166,27 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    clear: both;
+    width: 850px;
+}
+
+#contact h2, #contact h2 + p {
+    text-align: center;
+    margin: 10px auto auto 5px;
 }
 
 #contact form {
     text-align: left;
 }
 
-[placeholder] {
+#contact label, [placeholder] {
     font-size: 16px;
-    color: #007D7B;
     text-transform: uppercase;
+}
+
+[placeholder] {
+    color: #007D7B;
+}
+
+footer {
+    text-align: center;
 }
