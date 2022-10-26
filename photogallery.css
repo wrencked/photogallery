@@ -21,7 +21,7 @@ h1 {
     text-transform: uppercase;
     float: left;
     position: relative;
-  width: 400px;
+    width: 400px;
 }
 
 h2{
@@ -36,7 +36,9 @@ p, li {
 
 nav {
     float: right;
-    padding: 5px;
+    width: 600px;
+    height: 45px;
+    text-align: justify;
 }
 
 nav h2 {
@@ -52,13 +54,15 @@ nav li {
 nav a {
     color: #FFFFFF;
     text-decoration: none;
-    padding: 20px;
+    text-transform: uppercase;
 }
 
 [href="#top"] {
     position:fixed;
     bottom:0px;
     right:0px;
+    width: 80px;
+    background: #007D7B;
 }
 
 .box {
@@ -75,7 +79,7 @@ img[src*="TK"] {
     width: 850px;
     float: left;
     position: relative;
-    margin: 0px;
+    top: 120px;
 }
 
 #about {
@@ -83,11 +87,11 @@ img[src*="TK"] {
     float: right;
     position: relative;
     text-align: right;
-    margin: 150px 10px 0px;
+    top: 120px;
 }
 
 #about h2 {
-    margin: 20px 0px 0px;
+ 
 }
 
 #about p {
@@ -105,6 +109,8 @@ div .container {
     margin: 5px;
     width: 420px;
     position: relative;
+    display: block;
+    overflow: auto;
 }
 
 img {
@@ -155,6 +161,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    clear: both;
 }
 
 #contact form {
