@@ -84,7 +84,6 @@ main {
 .box {
     background: #FFFFFF;
     color: #000000;
-    padding: 0px 5px 0px;
     height: auto;
 }
 
@@ -96,7 +95,7 @@ img[src*="TK"] {
     width: 850px;
     float: left;
     position: relative;
-    top: 5px;
+    margin: 10px;
 }
 
 #about {
@@ -104,19 +103,13 @@ img[src*="TK"] {
     float: right;
     position: relative;
     text-align: right;
-    right: 5px;
-}
-
-#about p, #about h2, #gallery h2, #gallery p {
-    margin: 5px;
+    margin: 10px;
 }
 
 #gallery {
     clear: both;
-    margin-left: auto;
-    margin-right: auto;
     position: relative;
-    top: 5px;
+    margin: 10px;
 }
 
 div .container {
