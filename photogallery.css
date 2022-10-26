@@ -41,11 +41,13 @@ nav {
 
 #navigation {
     clear: both;
+    padding: 0px;
+    margin: 0px;
 }
 
 nav li {
     display: inline-block;
-    margin: 40px 20px 20px 40px;
+    margin: 20px 40px 20px 40px;
 }
 
 nav a {
@@ -66,8 +68,9 @@ nav a:hover {
     height: 40px;
     background: #007D7B;
     z-index: 1;
+    font-size: 10px;
     text-align: center;
-    line-height: 75%;
+    padding: 5px;
 }
 
 [href="#top"]:hover {
