@@ -47,7 +47,7 @@ nav {
 
 nav li {
     display: inline-block;
-    margin: 20px 40px 20px 40px;
+    margin: 40px 40px 20px 40px;
 }
 
 nav a {
@@ -127,9 +127,9 @@ div .container {
     clear: both; 
 }
 
-img {
+/* img {
     width: 420px;
-}
+} */
 
 .smallImage {
     height: 281px;
@@ -137,6 +137,10 @@ img {
 
 .largeImage {
     height: 630px;
+}
+
+#gallery img:hover {
+    border: 3px solid #007D7B;
 }
 
 .blackText {
