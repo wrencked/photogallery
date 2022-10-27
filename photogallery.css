@@ -123,6 +123,10 @@ div .container {
     overflow: auto;
 }
 
+div .container:hover {
+    border: 3px #007D7B solid;
+}
+
 .clear { 
     clear: both; 
 }
@@ -137,10 +141,6 @@ div .container {
 
 img {
     width: 420px;
-}
-
-div .container:hover, div .smallImage:hover, div .largeImage:hover {
-    border: 3px solid #007D7B;
 }
 
 .blackText {
