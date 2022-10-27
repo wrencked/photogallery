@@ -123,10 +123,6 @@ div .container {
     overflow: auto;
 }
 
-div .container:hover {
-    border: 3px #007D7B solid;
-}
-
 .clear { 
     clear: both; 
 }
