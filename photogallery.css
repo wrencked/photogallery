@@ -127,16 +127,16 @@ div .container {
     clear: both; 
 }
 
+img {
+    width: 420px;
+}
+
 .smallImage {
     height: 281px;
 }
 
 .largeImage {
     height: 630px;
-}
-
-img {
-    width: 420px;
 }
 
 .blackText {
