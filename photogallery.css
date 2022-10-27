@@ -127,10 +127,6 @@ div .container {
     clear: both; 
 }
 
-/* img {
-    width: 420px;
-} */
-
 .smallImage {
     height: 281px;
 }
@@ -139,7 +135,11 @@ div .container {
     height: 630px;
 }
 
-#gallery img:hover {
+img {
+    width: 420px;
+}
+
+div .container:hover, div .smallImage:hover, div .largeImage:hover {
     border: 3px solid #007D7B;
 }
 
